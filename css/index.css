@@ -170,7 +170,7 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-.header {
+header {
   border-bottom: 1px dashed #C0C0C0;
   margin: 20px 0;
   padding: 20px 0;
@@ -180,36 +180,38 @@ img {
   /*nav*/
 }
 @media (max-width-500px) {
-  .header {
+  header {
     flex-direction: column;
     align-items: center;
   }
 }
-.header h1 {
-  font-size: 2rem;
+header h1 {
   color: #212529;
 }
 @media (max-width-500px) {
-  .header h1 {
+  header h1 {
     margin-bottom: 20px;
   }
 }
-.header nav {
-  margin-left: 60px;
+header nav {
   /*a*/
 }
 @media (max-width-500px) {
-  .header nav {
+  header nav {
     margin-left: 0;
   }
 }
-.header nav a {
+header nav a {
   margin-left: 20px;
-  font-size: 1.8rem;
   color: #212529;
+  font-size: 1.6rem;
+  text-decoration: none;
 }
-.header nav a:hover {
+header nav a:hover {
   color: #17A2B8;
+}
+header nav .first-anchor {
+  margin-left: 0;
 }
 /*header*/
 .footer {
