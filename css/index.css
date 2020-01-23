@@ -171,9 +171,8 @@ img {
   margin: 0 auto;
 }
 header {
-  border-bottom: 1px dashed #C0C0C0;
   margin: 20px 0;
-  padding: 20px 0;
+  padding: 10px 0;
   display: flex;
   justify-content: space-between;
   /*h1*/
@@ -194,6 +193,7 @@ header h1 {
   }
 }
 header nav {
+  padding-top: 1%;
   /*a*/
 }
 @media (max-width-500px) {
@@ -202,9 +202,10 @@ header nav {
   }
 }
 header nav a {
-  margin-left: 20px;
+  padding-left: 10px;
+  margin-right: 25px;
   color: #212529;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   text-decoration: none;
 }
 header nav a:hover {
