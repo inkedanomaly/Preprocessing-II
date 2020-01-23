@@ -1,1 +1,41 @@
 // Navigation Styles here
+.header{
+    border-bottom: 1px dashed @silver;
+    margin:20px 0;
+    padding:20px 0;
+    display:flex;
+    justify-content: space-between;
+
+    @media @phone{
+        flex-direction:column;
+        align-items: center;
+    }
+
+    h1{
+        font-size:2rem;
+        color:@shark;
+
+        @media @phone{
+            margin-bottom: 20px;
+        }
+    } /*h1*/
+    
+    nav{
+        margin-left: 60px;;
+
+        @media @phone {
+            margin-left:0;
+        }
+
+        a{
+            margin-left:20px;
+            font-size: 1.8rem;
+            color:@shark;
+
+            &:hover{
+                color:@eastern-blue;
+            }
+        } /*a*/
+    } /*nav*/
+} /*header*/
+
