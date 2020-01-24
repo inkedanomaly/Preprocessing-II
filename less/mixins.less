@@ -1,1 +1,20 @@
 // Mixins in here
+
+/*parametric mixins*/
+.funbus-btn(@bgdButton,@width,@buttonFont){
+display:block;
+background-color:@bgdButton;
+margin: 0 10px 20px;
+cursor: pointer;
+height:45px;
+width: @width;
+font-size: 2rem;
+border-radius: 10px;
+color:@buttonFont;
+
+    @media @mobile {
+        width:90%;
+        height:50px;
+        font-size:2.5rem;
+    }
+}
